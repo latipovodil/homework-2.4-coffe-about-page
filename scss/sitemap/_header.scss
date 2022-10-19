@@ -13,8 +13,9 @@
     top: 0;
     right: 0;
     left: 0;
-
+    max-width: 100%;
     background-color: #fff;
+    z-index: 5;
   }
 
   &__all-link {
