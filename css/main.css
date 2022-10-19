@@ -52,7 +52,7 @@ a {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -132,7 +132,7 @@ img {
   margin-bottom: 137px;
 }
 .hero__title {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces";
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
@@ -144,4 +144,40 @@ img {
   font-size: 16px;
   line-height: 26px;
   color: #FEFCF7;
+}
+
+.commitment__container {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.commitment__img-box {
+  max-width: 509px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.commitment__all-text {
+  max-width: 540px;
+}
+.commitment__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+.commitment__text {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+  margin-top: 32px;
 }/*# sourceMappingURL=main.css.map */
