@@ -237,4 +237,83 @@ img {
 }
 .quality__img {
   border-radius: 10px;
+}
+
+.states__container {
+  margin-top: 168px;
+}
+.states__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+.states__main-title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+.states__main-text {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+.states__main-items {
+  max-width: 275px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  border-radius: 10px;
+}
+.states__main {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.states__main-all-text {
+  margin-top: 24px;
+  margin-bottom: 35px;
+}
+.states__main-title-one::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../img/united-kingdom-map.svg");
+  width: 80px;
+  display: block;
+  height: 100px;
+}
+.states__main-title-two::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../img/canada-map.svg");
+  width: 80px;
+  display: block;
+  height: 100px;
+}
+.states__main-title-three::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../img/australia-map.svg");
+  width: 80px;
+  display: block;
+  height: 100px;
 }/*# sourceMappingURL=main.css.map */
