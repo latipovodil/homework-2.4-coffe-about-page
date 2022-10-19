@@ -57,8 +57,60 @@ img {
 }
 
 .container {
-  max-width: 100%;
-  width: 100%;
+  width: 1345px;
   margin-left: auto;
   margin-right: auto;
+  padding: 40px 80px;
+}
+
+.header {
+  max-width: 100%;
+}
+.header__logo {
+  width: 203px;
+}
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.header__all-link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+.header__menu-box-items + .header__menu-box-items {
+  margin-left: 32px;
+}
+.header__menu-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__all-link:hover {
+  background-color: #333D4B;
+  color: white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+.header__all-link:active {
+  background-color: #FDD6BA;
+  color: white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }/*# sourceMappingURL=main.css.map */

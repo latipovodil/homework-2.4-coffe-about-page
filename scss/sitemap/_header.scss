@@ -1,0 +1,53 @@
+.header {
+  max-width: 100%;
+
+  &__logo {
+    width: 203px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  &__all-link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition-timing-function: ease;
+  }
+
+  &__menu-box-items+&__menu-box-items {
+    margin-left: 32px;
+  }
+
+  &__menu-box {
+    display: flex;
+  }
+
+  &__all-link:hover{
+    background-color: #333D4B;
+    color: white;
+    transition-duration: 1s;
+
+  }
+  
+  &__all-link:active{
+    background-color: #FDD6BA;
+    color: white;
+    transition-duration: 0.5s;
+  }
+
+  
+
+}
