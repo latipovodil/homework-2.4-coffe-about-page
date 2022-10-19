@@ -13,6 +13,8 @@
     top: 0;
     right: 0;
     left: 0;
+
+    background-color: #fff;
   }
 
   &__all-link {
@@ -35,19 +37,19 @@
     display: flex;
   }
 
-  &__all-link:hover{
+  &__all-link:hover {
     background-color: #333D4B;
     color: white;
     transition-duration: 1s;
 
   }
-  
-  &__all-link:active{
+
+  &__all-link:active {
     background-color: #FDD6BA;
     color: white;
     transition-duration: 0.5s;
   }
 
-  
+
 
 }
