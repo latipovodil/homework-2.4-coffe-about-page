@@ -35,7 +35,6 @@
     flex-direction: column;
     justify-content: end;
     border-radius: 10px;
-    background-color: #333D4B;
   }
 
   &__main {
@@ -79,6 +78,23 @@
 
   &__main-items:hover{
     background-color: #333D4B;
+    transition-duration: 1s;
+  }  
+  &__main-items:hover &__main-title{
+    color: #fff;
+  }  
+  &__main-items:hover &__main-text{
+    color: #fff;
+  }  
+
+  &__main-items:active{
+    background-color: #FDD6BA;
+    transition-duration: 1s;
+  }  
+  &__main-items:hover &__main-title{
+    color: #fff;
+  }  
+  &__main-items:hover &__main-text{
     color: #fff;
   }  
 

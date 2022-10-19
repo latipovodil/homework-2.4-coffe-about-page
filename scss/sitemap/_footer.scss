@@ -32,6 +32,8 @@
     letter-spacing: 0.923077px;
     text-transform: uppercase;
     color: #83888F;
+    padding: 7px 10px;
+    border-radius: 7px;
   }
 
   &__company-box {
@@ -42,9 +44,17 @@
     margin-left: 100px;
   }
 
-  &__ {}
+  &__link:hover {
+    background-color: #fff;
+    color: #2C343E;
+    transition-duration: 1s;
+  }
 
-  &__ {}
+  &__link:active {
+    background-color: #FDD6BA;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
 
 
 

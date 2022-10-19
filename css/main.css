@@ -317,6 +317,28 @@ img {
   display: block;
   height: 100px;
 }
+.states__main-items:hover {
+  background-color: #333D4B;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+.states__main-items:hover .states__main-title {
+  color: #fff;
+}
+.states__main-items:hover .states__main-text {
+  color: #fff;
+}
+.states__main-items:active {
+  background-color: #FDD6BA;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+.states__main-items:hover .states__main-title {
+  color: #fff;
+}
+.states__main-items:hover .states__main-text {
+  color: #fff;
+}
 
 .footer {
   background-color: #2C343E;
@@ -355,10 +377,24 @@ img {
   letter-spacing: 0.923077px;
   text-transform: uppercase;
   color: #83888F;
+  padding: 7px 10px;
+  border-radius: 7px;
 }
 .footer__company-box {
   margin-left: auto;
 }
 .footer__menu-box {
   margin-left: 100px;
+}
+.footer__link:hover {
+  background-color: #fff;
+  color: #2C343E;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+.footer__link:active {
+  background-color: #FDD6BA;
+  color: #fff;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }/*# sourceMappingURL=main.css.map */
