@@ -1,0 +1,52 @@
+.footer {
+  background-color: #2C343E;
+
+  &__container {
+    margin-top: 150px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu-box {
+    display: flex;
+  }
+
+  &__company-box {
+    display: flex;
+  }
+
+  &__text+&__text {
+    margin-left: 32px;
+  }
+
+  &__company+&__company {
+    margin-left: 32px;
+  }
+
+  &__link {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+  }
+
+  &__company-box {
+    margin-left: auto;
+  }
+
+  &__menu-box {
+    margin-left: 100px;
+  }
+
+  &__ {}
+
+  &__ {}
+
+
+
+
+}

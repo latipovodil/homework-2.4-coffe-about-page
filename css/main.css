@@ -316,4 +316,49 @@ img {
   width: 80px;
   display: block;
   height: 100px;
+}
+
+.footer {
+  background-color: #2C343E;
+}
+.footer__container {
+  margin-top: 150px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__menu-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__company-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__text + .footer__text {
+  margin-left: 32px;
+}
+.footer__company + .footer__company {
+  margin-left: 32px;
+}
+.footer__link {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+.footer__company-box {
+  margin-left: auto;
+}
+.footer__menu-box {
+  margin-left: 100px;
 }/*# sourceMappingURL=main.css.map */
